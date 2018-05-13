@@ -115,6 +115,9 @@ public:
 	const bool initialized() const {
 		return is_initialized;
 	}
+
+private:
+	uint32_t particle_id_counter = 0;
 };
 
 
